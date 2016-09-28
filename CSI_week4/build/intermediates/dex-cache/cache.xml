@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="a07e67fb06b9690ac4f45473de9fb62d49e110c0">
+        <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6a4dc513f035ba38ee528d3e13eda0e6ed2f0528\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\libs\internal_impl-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-20.0.0_31f862be895e918c83dc7b3fc246a6e01f1d7d8e\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Marc\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-20.0.0_a64401adf825ea7fc87e939b5b041aa52e81975c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="c3b964346f0c69d02bc55624a81a8c672eb073cf">
+        <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e5819041ec02296fd3b3cb8fc0a33163cc0b0287\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.1"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-20.0.0_f9396dbb5a14996fe8279af985adf0affc974b4b\classes.dex" />
+    </item>
+
+</items>

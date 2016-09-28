@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="20.0.0$Generated" generated="true"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res"/><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\generated\res\rs\debug"/><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\debug\res"/></dataSet><dataSet config="20.0.0" from-dependency="true" generated-set="20.0.0$Generated"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res"><file name="mugshot1" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable\mugshot1.png" qualifiers="" type="drawable"/><file name="mugshot2" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable\mugshot2.png" qualifiers="" type="drawable"/><file name="mugshot3" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable\mugshot3.png" qualifiers="" type="drawable"/><file name="mugshot4" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable\mugshot4.png" qualifiers="" type="drawable"/><file name="mugshot5" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable\mugshot5.png" qualifiers="" type="drawable"/><file name="background_gradient" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-hdpi\background_gradient.xml" qualifiers="hdpi-v4" type="drawable"/><file name="buttonshape" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-hdpi\buttonshape.xml" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi-v4" type="drawable"/><file name="lineshape" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-hdpi\lineshape.xml" qualifiers="hdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="crimi" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\layout\crimi.xml" qualifiers="" type="layout"/><file name="criminallistitem" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\layout\criminallistitem.xml" qualifiers="" type="layout"/><file name="crimireport" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\layout\crimireport.xml" qualifiers="" type="layout"/><file name="main" path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\layout\main.xml" qualifiers="" type="layout"/><file path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\values\colors.xml" qualifiers=""><color name="colorTable">#76ffb940</color><color name="colorPrimaryDark">#000000</color><color name="colorPrimary">#000000</color><color name="colorAccent">#FF4081</color></file><file path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\values\strings.xml" qualifiers=""><string name="hello_world">Hello world!</string><string name="action_settings">Settings</string><string name="app_name">CSI_week4</string></file><file path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\values\string_arrays.xml" qualifiers=""><string-array name="crimeNames">
+        <item>Article 4b</item>
+        <item>Article 12f</item>
+        <item>Article 42a</item>
+        <item>Article 4c</item>
+        <item>Article 17e</item>
+    </string-array><string-array name="criminalNames">
+        <item>Jack the Flipper</item>
+        <item>John the Hacker</item>
+        <item>Wendy Ferrari</item>
+        <item>Hans Pigmans</item>
+        <item>James Tyson</item>
+    </string-array><string-array name="crimeDetails">
+        <item>Robbery</item>
+        <item>Bank fraud</item>
+        <item>Tells bas jokes</item>
+        <item>Writes buggy code</item>
+        <item>Speeding at city area (142 mph)</item>
+        <item>Dropping chewing gum on the street</item>
+    </string-array><string-array name="criminalDetails">
+        <item>Armed and fast talking</item>
+        <item>Dressed in red</item>
+        <item>Wears orange pants</item>
+        <item>Scar above left eye</item>
+        <item>Only has 8 fingers</item>
+    </string-array></file><file path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\main\res\values\styles.xml" qualifiers=""><style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style><style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style></file></source><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\generated\res\rs\debug"/><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\src\debug\res"/></dataSet><mergedItems/></merger>

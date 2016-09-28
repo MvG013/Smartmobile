@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/background_gradient">
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription ="description"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#ef6909"
+        android:layout_below="@+id/imageView"
+        />
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTable"
+        android:id="@+id/tableLayout"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:id="@+id/textView"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Pablo Escobar"
+                android:id="@+id/textView1"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:id="@+id/textView2"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:id="@+id/textView3"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:id="@+id/textView4"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:id="@+id/textView5"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Bounty:"
+                android:id="@+id/textView6"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="€5.000.000"
+                android:id="@+id/textView7"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tableLayout"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Details:"
+            android:id="@+id/textView8"
+            android:layout_column="7"
+            android:textSize="20dp"
+            android:textColor="#ffffff" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="90dp"
+            android:id="@+id/scrollView"
+            android:layout_weight="0.96" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Escobar begon zijn criminele carrière met het stelen van grafstenen. Later werd hij actief als autodief in de straten van Medellín in Colombia. Daarna ging hij in cocaïne handelen en begon hij zijn drugsimperium in de jaren zeventig op te bouwen."
+                android:id="@+id/textView9"
+                android:layout_column="7"
+                android:layout_weight="1"
+                android:textSize="20dp"
+                android:textColor="#ffffff"/>
+        </ScrollView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/buttonshape"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

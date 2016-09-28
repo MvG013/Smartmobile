@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\buttonshape.xml",
+        "source": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\drawable-hdpi\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background_gradient.xml",
+        "source": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\drawable-hdpi\\background_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\lineshape.xml",
+        "source": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\drawable-hdpi\\lineshape.xml"
+    }
+]
