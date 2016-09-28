@@ -5,7 +5,7 @@
         jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="a07e67fb06b9690ac4f45473de9fb62d49e110c0">
+        sha1="bd901c463c3e2ca4a4a8faa2c28b6ae0c4b5ea22">
         <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_6a4dc513f035ba38ee528d3e13eda0e6ed2f0528\classes.dex" />
     </item>
     <item
@@ -26,7 +26,7 @@
         jar="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         revision="23.0.1"
-        sha1="c3b964346f0c69d02bc55624a81a8c672eb073cf">
+        sha1="e11bec7c8d8501c4f56a2f675be0a89d748c8646">
         <dex dex="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e5819041ec02296fd3b3cb8fc0a33163cc0b0287\classes.dex" />
     </item>
     <item

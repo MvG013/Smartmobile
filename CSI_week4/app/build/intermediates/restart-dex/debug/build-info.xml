@@ -4,27 +4,27 @@
     api-level="23"
     density="420dpi"
     format="7"
-    timestamp="31954465775779"
+    timestamp="92917698697224"
     token="1189482063440737946" >
 
     <task
         name="javac"
-        duration="754" />
+        duration="268" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="239" />
+        duration="173" />
     <task
         name="verifier"
-        duration="33" />
+        duration="44" />
 
     <artifact
         location="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="31954465775779" >
+    <build timestamp="92917698697224" >
         <artifact
             location="C:\Users\Marc\Documents\GitHub\Smartmobile\CSI_week4\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
