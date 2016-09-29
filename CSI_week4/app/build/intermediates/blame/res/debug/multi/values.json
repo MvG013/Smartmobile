@@ -298,6 +298,48 @@
                         "endOffset": 665
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 1989,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 2320
+                },
+                "from": {
+                    "file": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 903,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 2325,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 2551
+                },
+                "from": {
+                    "file": "C:\\Users\\Marc\\Documents\\GitHub\\Smartmobile\\CSI_week4\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endLine": 23,
+                        "endColumn": 12,
+                        "endOffset": 897
+                    }
+                }
             }
         ]
     }

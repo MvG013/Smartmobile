@@ -1,6 +1,7 @@
 package com.example.csi;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.location.Location;
@@ -11,6 +12,7 @@ import android.os.Vibrator;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -21,6 +23,7 @@ public class CrimiReportActivity extends Activity implements LocationListener{
 
     public Button Back;
     private LocationManager locationManager;
+    private Criminal criminal;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,12 +31,11 @@ public class CrimiReportActivity extends Activity implements LocationListener{
         setContentView(R.layout.crimireport);
         Back = (Button)findViewById(R.id.button4);
         Intent intent = getIntent();
-        CriminalProvider criminalProvider = new CriminalProvider(getApplicationContext());
-        List<Criminal> criminals = criminalProvider.GetCriminals();
-        Criminal criminal = criminals.get(intent.getIntExtra("pos",0));
+        CriminalProvider criminalProvider = new CriminalProvider(this);
         ImageView image = (ImageView) findViewById(R.id.imageView);
         image.setImageDrawable(criminal.mugshot);
-
+        final int chosenCriminalPosition = Integer.valueOf(intent.getStringExtra("position"));
+        this.criminal = criminalProvider.GetCriminal(chosenCriminalPosition);
         locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER,2000, 1, this);
 
@@ -55,15 +57,22 @@ public class CrimiReportActivity extends Activity implements LocationListener{
 
         Toast.makeText(getBaseContext(), msg, Toast.LENGTH_LONG).show();
 
-        //vergelijking moet nog gemaakt worden alleen tijd nood(p uitreiking)
+        float distance = location.distanceTo(criminal.lastKnownLocation);
+
         Vibrator v = (Vibrator) getApplicationContext().getSystemService(Context.VIBRATOR_SERVICE);
-        // Vibrate for 500 milliseconds
-        v.vibrate(500);
+        if (distance < 100) {
+
+                long[] pattern = new long[] { 20, 50, 100, 200, 40, 100 } ;
+                v.vibrate(pattern, 0);
+
+                v.vibrate(500);
+            }
     }
 
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
     //Geen tijd meer voor jammer genoeg
+
     }
 
     @Override
